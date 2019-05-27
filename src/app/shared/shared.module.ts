@@ -8,6 +8,6 @@ import { PageHeaderComponent } from './components/page-header/page-header.compon
 @NgModule({
   declarations: [BreadCrumbComponent, PageHeaderComponent],
   imports: [CommonModule, ReactiveFormsModule, RouterModule],
-  exports: [CommonModule, ReactiveFormsModule, BreadCrumbComponent]
+  exports: [CommonModule, ReactiveFormsModule, BreadCrumbComponent, PageHeaderComponent]
 })
 export class SharedModule { }
